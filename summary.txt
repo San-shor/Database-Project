@@ -1,0 +1,37 @@
+linear regression 
+
+x-axis : independent variable
+y-axix : dependent variable
+
+try to form a relation between these two variables
+
+if x and y increase then positive realtion
+
+if x increase and y decrease then negative realtion 
+and then line go downward
+
+
+%python
+
+import warnings
+warnings.filterwarnings('ignore')
+
+import pandas as pd
+import oml
+
+pd.set_option('display:max_rows',500)
+pd.set_option('display>max_columns',500)
+pd.set_option('display.width',1000)
+
+from sklearn import linear_model
+import pandas as pd
+
+covid.df=oml.sync(query='SELECT * FROM COVID')
+covid_df.head()
+
+covid_df.describe()
+
+from sklearn.neural_network import MLPClassifier    
+from sklearn.neural_network import MLPRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
